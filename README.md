@@ -36,6 +36,8 @@ python -m unittest discover -s tests -v
 
 测试通过模拟外部命令校验参数、SQL 构造、错误处理和 JSON 输出；没有可连接的课程集群时，不把模拟结果当作真实集群验证。
 
+本机实际测试输出见 [`examples/test-results.txt`](examples/test-results.txt)，演示记录与真实集群待验收步骤见 [`examples/demo-record.md`](examples/demo-record.md)。提交者姓名和学号见 [`CONTRIBUTOR.md`](CONTRIBUTOR.md)。
+
 ## 课程知识对应
 
 | 课程知识 | 工具中的应用 |
@@ -47,4 +49,3 @@ python -m unittest discover -s tests -v
 | 故障定位 | `logs` 读取近期日志，结合状态输出排查 |
 
 以上语法参考本地课程材料《OpenTenBase 课程4 集群部署与运维》的运维与建表章节。实际支持的语法和参数应以目标集群版本的 `--help` 与 SQL 测试结果为准。
-

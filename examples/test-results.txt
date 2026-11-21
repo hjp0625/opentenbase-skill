@@ -1,0 +1,11 @@
+test_grant_whitelist (test_otb.OTBTests) ... ok
+test_json_error (test_otb.OTBTests) ... ok
+test_logs_reads_latest_file (test_otb.OTBTests) ... ok
+test_status_command_and_node_filter (test_otb.OTBTests) ... ok
+test_stop_requires_confirmation (test_otb.OTBTests) ... ok
+test_table_sql_and_injection_rejection (test_otb.OTBTests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.064s
+
+OK
