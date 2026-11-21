@@ -46,5 +46,5 @@ python -m unittest discover -s tests -v
 | 数据库权限 | `grant` 指定表级权限与角色 |
 | 故障定位 | `logs` 读取近期日志，结合状态输出排查 |
 
-以上语法参考本地课程材料《OpenTenBase 课程4 集群部署与运维》的运维与建表章节。实际支持的语法和参数应以目标集群版本的 `--help` 与 SQL 测试结果为准。
+
 
