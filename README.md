@@ -34,7 +34,7 @@ python otb.py --json start --ctl opentenbase_ctl --config config.ini --yes
 python -m unittest discover -s tests -v
 ```
 
-测试通过模拟外部命令校验参数、SQL 构造、错误处理和 JSON 输出；没有可连接的课程集群时，不把模拟结果当作真实集群验证。实际演示步骤和记录见 [`DEMO.md`](DEMO.md)。
+测试通过模拟外部命令校验参数、SQL 构造、错误处理和 JSON 输出；没有可连接的课程集群时，不把模拟结果当作真实集群验证。
 
 ## 课程知识对应
 
