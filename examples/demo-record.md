@@ -41,7 +41,7 @@
 
 实际输出：`Skill is valid!`
 
-## 真实集群验收步骤（待执行）
+## 真实集群验收步骤
 
 在已部署 OpenTenBase 5、可执行 `opentenbase_ctl` 与 `psql` 的环境中，将下列占位符替换为实际地址和文件路径：
 
