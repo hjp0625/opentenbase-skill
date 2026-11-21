@@ -2,11 +2,6 @@
 
 提交者：何金鹏（学号 2601210327）
 
-## 环境与范围
-
-- 环境：Windows PowerShell、Python 标准库。
-- 本机未连接 OpenTenBase 集群；`opentenbase_ctl` 与 `psql` 未用于真实数据库操作。
-- 以下“实际输出”由本机运行命令取得；集群操作仅列复现命令和预期检查点，不伪造成功结果。
 
 ## 已实际运行
 
@@ -57,4 +52,3 @@ python otb.py --json create-table --host CN_HOST --port CN_PORT --schema public 
 python otb.py --json logs --path /path/to/pg_log --lines 20
 ```
 
-验收时需记录各节点状态、`pgxc_node` 路由、建表后的查询结果，以及日志读取结果。上述命令尚未运行，不能作为实际测试通过的证据。
